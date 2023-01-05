@@ -1,7 +1,44 @@
-#home{
+#home {
+  padding: 50px 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    padding: 50px;
-    color: rgb(21, 151, 21);
-    font-weight: 900;
-    font-size: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+    .text {
+      h2 {
+        color: rgb(21, 151, 21);
+        font-weight: 900;
+        font-size: 45px;
+      }
+      .about {
+        width: 500px;
+        color: rgb(122, 122, 122);
+        font-weight: 700;
+        font-size: 17px;
+      }
+      .question {
+        color: rgb(240, 35, 35);
+        font-weight: 700;
+        font-size: 24px;
+      }
+      button {
+        border: 0;
+        outline: 0;
+        border-radius: 8px;
+        padding: 16px 30px;
+        background-color: rgb(21, 151, 21);
+        color: white;
+        cursor: pointer;
+      }
+    }
+    .img {
+      img {
+        width: 500px;
+        border-radius: 10px;
+      }
+    }
+  }
 }

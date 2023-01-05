@@ -6,6 +6,7 @@ import HomePage from "./pages/home-page";
 import Header from "./layout/header";
 import Footer from "./layout/footer";
 import DetailsPage from "./pages/deatils-page";
+import NotFoundPage from "./pages/not-found";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/products-list" element={<ProductsListPage />} />
         <Route path="/details-page/:id" element={<DetailsPage />} />
         <Route path="/products-in-basket" element={<ProductsInBasketPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
     </div>

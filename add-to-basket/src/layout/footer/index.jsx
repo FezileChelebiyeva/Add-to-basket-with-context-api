@@ -3,7 +3,9 @@ import "./index.scss";
 const Footer = () => {
   return (
     <div id="footer">
-      <h3>Created by Fezile</h3>
+      <div className="container">
+        <h3>Created by Fezile</h3>
+      </div>
     </div>
   );
 };

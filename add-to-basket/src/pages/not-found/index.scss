@@ -1,0 +1,41 @@
+#not-found {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+  .text {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    h1 {
+      font-size: 50px;
+      margin: 4px 0;
+    }
+    .text-center {
+      text-align: center;
+      margin: 8px 0;
+      .opps {
+        margin: 8px 0;
+        font-size: 35px;
+        .text-danger {
+          color: red;
+          font-size: 35px;
+        }
+      }
+      .lead {
+        margin: 15px 0;
+        font-size: 20px;
+        font-weight: 900;
+        color: rgb(138, 7, 7);
+      }
+      button {
+        cursor: pointer;
+        border-radius: 6px;
+        background-color: rgb(21, 151, 21);
+        border: 0;
+        outline: 0;
+        padding: 10px 15px;
+        color: white;
+      }
+    }
+  }
+}

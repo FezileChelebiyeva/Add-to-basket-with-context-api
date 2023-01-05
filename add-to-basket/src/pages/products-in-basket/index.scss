@@ -1,51 +1,56 @@
 #basket-card {
-  padding: 20px;
-  .table {
-    display: flex;
-    justify-content: center;
-    table {
-      margin: 40px 0;
-      tr {
-        &:nth-child(even) {
-          background-color: #e2e2e2;
-        }
-        th {
-          background-color: rgb(44, 139, 60);
-          padding: 15px;
-          color: white;
-        }
-        td {
-          padding: 10px;
-          text-align: center;
-          a {
-            color: rgb(4, 82, 4);
-            text-decoration: none;
-            font-weight: 800;
+  padding: 20px 0;
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+    .table {
+      display: flex;
+      justify-content: center;
+      table {
+        margin: 40px 0;
+        tr {
+          &:nth-child(even) {
+            background-color: #e2e2e2;
           }
-          button {
-            background-color: transparent;
-            color: rgb(151, 8, 8);
-            font-weight: 700;
-            border: 0;
-            outline: 0;
-            cursor: pointer;
+          th {
+            background-color: rgb(44, 139, 60);
+            padding: 15px;
+            color: white;
+          }
+          td {
+            padding: 10px;
+            text-align: center;
+            a {
+              color: rgb(4, 82, 4);
+              text-decoration: none;
+              font-weight: 800;
+            }
+            button {
+              background-color: transparent;
+              color: rgb(151, 8, 8);
+              font-weight: 700;
+              border: 0;
+              outline: 0;
+              cursor: pointer;
+            }
           }
         }
       }
     }
-  }
-  .btn {
-    display: flex;
-    justify-content: center;
-    button {
-      font-weight: 700;
-      border: 0;
-      outline: 0;
-      cursor: pointer;
-      padding: 15px 25px;
-      background-color: rgb(10, 107, 39);
-      border-radius: 6px;
-      color: white;
+    .btn {
+      display: flex;
+      justify-content: center;
+      button {
+        font-weight: 700;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        padding: 15px 25px;
+        background-color: rgb(10, 107, 39);
+        border-radius: 6px;
+        color: white;
+      }
     }
   }
 }

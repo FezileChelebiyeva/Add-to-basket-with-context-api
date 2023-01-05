@@ -5,6 +5,7 @@ import "./index.scss";
 const Header = () => {
   return (
     <div id="header">
+      <div className="container">
       <div className="logo">
         <h1>Products</h1>
       </div>
@@ -24,6 +25,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      </div>
     </div>
   );
 };

@@ -1,6 +1,11 @@
-#footer{
-    background-color: black;
-    padding: 20px;
-    color: white;
+#footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
     text-align: center;
+  }
 }

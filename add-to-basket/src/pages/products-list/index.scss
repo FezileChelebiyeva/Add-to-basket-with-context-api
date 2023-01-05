@@ -1,0 +1,37 @@
+#products-list {
+  display: flex;
+  justify-content: center;
+  table {
+    margin: 40px 0;
+    tr {
+      &:nth-child(even) {
+        background-color: #e2e2e2;
+      }
+      th {
+        background-color: rgb(44, 139, 60);
+        padding: 15px;
+        color: white;
+      }
+      td {
+        padding: 10px;
+        text-align: center;
+        a {
+          color: rgb(4, 82, 4);
+          text-decoration: none;
+          font-weight: 800;
+        }
+        .addBtn {
+          background-color: transparent;
+          color: rgb(151, 8, 8);
+          font-weight: 700;
+          border: 0;
+          outline: 0;
+          cursor: pointer;
+          &.added{
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

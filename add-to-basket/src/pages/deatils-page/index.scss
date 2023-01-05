@@ -1,0 +1,21 @@
+#details-page {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  button {
+    background-color: black;
+    color: rgb(209, 209, 209);
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 5px;
+  }
+  h2 {
+    color: rgb(44, 139, 60);
+  }
+  span {
+    font-weight: 900;
+  }
+}

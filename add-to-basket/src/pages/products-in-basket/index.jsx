@@ -35,7 +35,7 @@ const ProductsInBasketPage = () => {
             <tbody>
               {basket?.map((element) => {
                 return (
-                  <tr>
+                  <tr key={element.id}>
                     <td>{element.id}</td>
                     <td>{element.name}</td>
                     <td>{element.unitPrice}</td>
